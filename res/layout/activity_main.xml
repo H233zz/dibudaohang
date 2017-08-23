@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.w.MainActivity">
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        xmlns:hjm="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottom_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        hjm:tab_font_size="12sp"
+        hjm:tab_img_font_padding="0dp"
+        hjm:tab_img_height="40dp"
+        hjm:tab_img_width="40dp"
+        hjm:tab_padding_bottom="5dp"
+        hjm:tab_padding_top="8dp"
+        hjm:tab_selected_color="#ffe866"
+        hjm:tab_unselected_color="#1a0204"
+
+        />
+</RelativeLayout>
